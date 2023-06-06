@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+
+  openNavBar() {    
+    let navbar = document.getElementById('nav-bar');
+    navbar?.classList.remove('animate-close-navbar');
+    navbar?.classList.add('animate-open-navbar');
+  }
+
+  closeNavBar(){
+    let navbar = document.getElementById('nav-bar');
+    navbar?.classList.remove('animate-open-navbar');
+    navbar?.classList.add('animate-close-navbar');
+  }
 }
