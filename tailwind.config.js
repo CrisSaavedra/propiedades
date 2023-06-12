@@ -7,6 +7,7 @@ module.exports = {
       animation: {
         'open-navbar': 'open 0.3s linear forwards',
         'close-navbar': 'close 0.3s linear forwards',
+        'float-img': 'float'
       },
       keyframes: {
         open: {
