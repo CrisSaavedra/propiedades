@@ -7,7 +7,7 @@ module.exports = {
       animation: {
         'open-navbar': 'open 0.3s linear forwards',
         'close-navbar': 'close 0.3s linear forwards',
-        'float-img': 'float'
+        'float-img': 'float 1.5s linear infinite'
       },
       keyframes: {
         open: {
@@ -18,6 +18,11 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(100%)' },
         },
+
+        float: {
+          '0%': { transform: 'translatey(0)' },
+          '50%': { transform: 'translatey(5px)' },
+        }
         
       }
     },
